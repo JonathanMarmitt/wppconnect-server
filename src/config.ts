@@ -1,7 +1,7 @@
 import { ServerOptions } from './types/ServerOptions';
 
 export default {
-  secretKey: '$2y$10$48P0ntx6BJ0EzdH8BH7jxeUGhh8hEqBSqA2Tp9CZqKZO',
+  secretKey: '$2y$10$48P0ntx6BJ0EzdH8BH7jxeUGhh8hEqBSqA2Tp9CZqKZ1',
   host: 'http://localhost',
   port: '21465',
   deviceName: 'Vittality',
