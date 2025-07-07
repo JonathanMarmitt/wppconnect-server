@@ -6,9 +6,9 @@ export default {
   port: '21465',
   deviceName: 'Vittality',
   poweredBy: 'WPPConnect-Server',
-  startAllSession: true,
+  startAllSession: false,
   tokenStoreType: 'file',
-  maxListeners: 15,
+  maxListeners: 0,
   customUserDataDir: './userDataDir/',
   webhook: {
     url: null,
@@ -24,7 +24,7 @@ export default {
     onRevokedMessage: false,
     onLabelUpdated: false,
     onSelfMessage: false,
-    ignore: ['status@broadcast', 'onmessage'],
+    ignore: ['status@broadcast', 'onmessage', 'incomingcall'],
   },
   websocket: {
     autoDownload: false,
