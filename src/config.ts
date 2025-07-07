@@ -24,7 +24,7 @@ export default {
     onRevokedMessage: false,
     onLabelUpdated: false,
     onSelfMessage: false,
-    ignore: ['status@broadcast', 'onmessage', 'onincomingcall'],
+    ignore: ['status@broadcast', 'onmessage'],
   },
   websocket: {
     autoDownload: false,
