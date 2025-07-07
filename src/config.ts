@@ -6,7 +6,7 @@ export default {
   port: '21465',
   deviceName: 'Vittality',
   poweredBy: 'WPPConnect-Server',
-  startAllSession: false,
+  startAllSession: true,
   tokenStoreType: 'file',
   maxListeners: 0,
   customUserDataDir: './userDataDir/',
